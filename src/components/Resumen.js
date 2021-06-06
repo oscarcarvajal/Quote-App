@@ -17,7 +17,7 @@ const Resumen = ({datos}) => {
     if(marca ==='' || year ==='' || plan === '') return null;
     return ( 
         <ContenedorResumen>
-            <h1>Resumen De Cotizacion</h1>
+            <h1>Quote</h1>
             <ul>
                 <li>Brand: {primerMayuscula(marca)}</li>
                 <li>Plan: {primerMayuscula(plan)}</li>
